@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/go", "destination": "/image.jpg", "permanent": false }
+    { "source": "/go", "destination": "/", "permanent": false }
   ]
 }
