@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import PlatformTiles from './components/PlatformTiles'
 import EventCard from './components/EventCard'
 import LinkCard from './components/LinkCard'
 import { events, links, tagline } from './data/links'
@@ -28,7 +27,6 @@ export default function App() {
         >
           {tagline}
         </motion.h1>
-        <PlatformTiles />
       </header>
 
       <main className="flex flex-col gap-3 px-6 pb-[calc(28px+env(safe-area-inset-bottom))] pt-6">
