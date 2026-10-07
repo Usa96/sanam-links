@@ -40,7 +40,7 @@ export default function App() {
           <LinkCard key={l.id} l={l} i={i} />
         ))}
 
-        <footer className="mt-4 text-center text-[11px] text-stone">© SANAM Group Holding Co. K.P.S.C.</footer>
+        <footer className="mt-24 text-center text-[11px] text-stone">© SANAM Group Holding Co. K.P.S.C.</footer>
       </main>
     </div>
   )
