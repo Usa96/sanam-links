@@ -16,7 +16,7 @@ export type LinkItem = {
   href: string
 }
 
-export const tagline = 'Leading Responsible Investing in Frontier Markets'
+export const tagline = 'Investing in what lasts.'
 
 // Newest first. Copy a block to add an event.
 export const events: EventItem[] = [
@@ -25,12 +25,13 @@ export const events: EventItem[] = [
     tag: 'Awareness Month',
     month: 'OCT',
     year: '2026',
-    href: 'https://www.instagram.com/sanamksc', // TODO: swap for the event post / form
+    href: 'https://www.qrcodechimp.page/page/rvkljyr9inf0?v=chk1779607365',
   },
 ]
 
 export const links: LinkItem[] = [
   { id: 'website', label: 'Website', href: 'https://www.sanam.com' },
-  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/sanamksc' },
   { id: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/sanam-holding-company/' },
+  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/sanamksc' },
+  { id: 'x', label: 'X', href: 'https://x.com/Sanamksc' },
 ]
