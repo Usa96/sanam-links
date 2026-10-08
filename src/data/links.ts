@@ -11,12 +11,12 @@ export type EventItem = {
 }
 
 export type LinkItem = {
-  id: 'website' | 'linkedin' | 'instagram' | 'x'
+  id: 'website' | 'linkedin' | 'instagram'
   label: string
   href: string
 }
 
-export const tagline = 'Investing in what lasts.'
+export const tagline = 'Leading Responsible Investing in Frontier Markets'
 
 // Newest first. Copy a block to add an event.
 export const events: EventItem[] = [
@@ -31,7 +31,5 @@ export const events: EventItem[] = [
 
 export const links: LinkItem[] = [
   { id: 'website', label: 'Website', href: 'https://www.sanam.com' },
-  { id: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/sanam-holding-company/' },
   { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/sanamksc' },
-  { id: 'x', label: 'X', href: 'https://x.com/Sanamksc' },
-]
+  { id: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/sanam-holding-company/' },]

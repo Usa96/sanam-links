@@ -11,11 +11,12 @@ export default function EventCard({ e, i }: { e: EventItem; i: number }) {
       initial={{ opacity: 0, y: 14 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3 + i * 0.06 }}
+      whileHover={{ y: -2 }}
       whileTap={{ scale: 0.98 }}
       className="flex min-h-[64px] items-center gap-4 rounded-2xl bg-onyx p-[18px] text-ivory outline-none transition-shadow hover:shadow-lg focus-visible:ring-2 focus-visible:ring-sand"
     >
       <div className="flex h-14 w-[52px] flex-none flex-col items-center justify-center rounded-xl bg-charcoal">
-        <span className="text-[10px] tracking-widest text-sand">{e.month}</span>
+        <span className="text-xs font-bold tracking-widest text-sand">{e.month}</span>
         <span className="font-display text-base font-extrabold">{e.year}</span>
       </div>
       <div className="flex flex-1 flex-col gap-1.5">
